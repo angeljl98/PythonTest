@@ -1,0 +1,4 @@
+echo "detener el SQL"
+net stop MSSQLSERVER
+echo "iniciar en modo sigle"
+net start MSSQLSERVER /m
